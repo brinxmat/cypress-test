@@ -1,0 +1,15 @@
+{
+  "name": "cypresstest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cytest": "$(npm bin)/cypress run --spec 'cypress/integration/test_spec.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^3.1.0",
+    "cypress-cucumber-preprocessor": "^1.2.2"
+  }
+}
